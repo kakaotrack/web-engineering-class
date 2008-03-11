@@ -1,0 +1,12 @@
+#루비 온 레일즈 관련 자료
+
+이 페이지는 루비 온 레일즈에 대한 관련 자료를 정리해 둔 곳입니다. 자기 학습에 도움이 되시기 바랍니다.
+
+== 초급 문서 ==
+ * [http://www-128.ibm.com/developerworks/kr/library/l-rubyrails/ Ruby On Rails로 웹 어플리케이션 구현하기] (IBM devworks)
+ * [http://network.hanb.co.kr/view.php?bi_id=1349 Ruby on Rails 굴러보기1] (한빛출판사)
+ * [http://network.hanb.co.kr/view.php?bi_id=1350 Ruby on Rails 굴러보기2] (한빛출판사)
+ * 
+
+== 동영상 강의 ==
+ * [http://jaehyun.codns.com/data/ruby-lecture/ CodeWay 동영상 강의]
