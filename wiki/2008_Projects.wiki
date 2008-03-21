@@ -3,48 +3,37 @@
 
 = 조별 구성원 소개 =
 각 조별의 "자신의 이름(gmail 아이디), 블로그 주소(있으면)"를 적으세요.
-
 == 1조 ==
  * 예, 윤석찬(channy), http://channy.creation.net
  * 오아름(dhdkfma1016), http://pandora.tistory.com
  * 김성규(sunygyu)
  * 김경현(hyun0421) http://blog.naver.com/cybermusic 
-
 == 2조 ==
  * 김명성(xfuncrushx) http://funcrush.tistory.com
  * 조재신(jjae4487) http://sini.tistory.com
  * 최현석(chs1217) http://chs1217.tistory.com
  * 박요종(madrhapsody) 
-
 == 3조 ==
  * 이종준(whdwnsdl) http://cheju.tistory.com
  * 이승철(tadoli2007) http://tadoli.byus.net/blog
  * 고수혁(plzbtrue)
-
 == 4조 ==
  * 황현석(fr.hwang), http://stfrancis.tistory.com
  * 김문경(dnipen), http://blog.naver.com/dnipen2
  * 박영택(shivanzz1)http://blog.naver.com/shivanzz 
-
 == 5조 ==
  * 한동균(handk85) http://handk85.tistory.com
  * 양재석(yjs1933811)
-
 == 6조 ==
-
 == 7조 ==
  * 여경철(Afeleia.CE), http://afeleia.tistory.com
  * 정효원(lucael4u) http://blog.naver.com/lucael 
  * 김창민(foxmeteor) 
-
 == 8조 ==
  * 박진남 (cyber693)
-
 == 9조 ==
  * 오영석 (bitboxboy)
-
 == 10조 ==
  * 양훈성(neogodslayer)
-
 = 조별 프로젝트 참고 사항 =
  * 향후 업데이트 예정
