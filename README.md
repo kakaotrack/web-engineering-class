@@ -7,7 +7,6 @@ This class was started in 2008 as a co-work class with Daum Communications and J
 * Hyeonseok Shin
 * Hoon Jo
 * Sangkil Park
-
 * **Need help?**
    * Office Hours: Every 2 hours after class
    * [Email](channy@jejunu.ac.kr) for 1-on-1 help, or to set up a time to meet
@@ -45,6 +44,12 @@ For developing outstanding web applications, firstly we learn basic principals o
 * All codes made by assignments and projects have to be submitted to Google Code repository.
 ***Do not just copy-and-paste the code into the submission form.***
 
+## Grading
+* Project: 30%
+* Quiz: 30%
+* Homework – 30%
+* Class Participation – 10%
+
 ### Required Reading
 * All HTML files should pass [W3C Markup Validation](http://validator.w3.org/)
 * All written JS should pass [JSHint](http://jshint.com/)
@@ -57,8 +62,9 @@ For developing outstanding web applications, firstly we learn basic principals o
 * [w3schools](http://www.w3schools.com/jsref/default.asp)
 * [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do) by David Flanagan
 
-## Grading
-* Project: 30%
-* Quiz: 30%
-* Homework – 30%
-* Class Participation – 10%
+## Related class
+* [Internet Engineering](http://yust.wikispaces.com) (YUST)
+* [Hypermedia and the Web](http://www.soe.ucsc.edu/classes/cmps183/Spring06/) CS 183(UCSC)
+* [Internet & Web Systems](http://teaching.cs.uml.edu/%7Eheines/91.513/91.513-2005-06f/teaching-frames.htm) (UMass)
+* [Software Engineering for Web Applications](http://www.aduni.org/courses/web/) (ADUni.org)
+* [Software Engineering for WebApplications](http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-171Fall2003/CourseHome/index.htm) (MIT OCW)
