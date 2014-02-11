@@ -2,7 +2,6 @@
 
 This class was started in 2008 as a co-work class with Daum Communications and Jeju National University.
 
-* **Course:** [INFO1-CE9766, NYU SCPS](http://scps.nyu.edu/content/scps/academics/course_detail.html?id=INFO1-CE9766)
 ### Instructor
 * Channy Yun
 * Hyeonseok Shin
