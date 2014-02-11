@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Slide DEMO</title>
+<meta charset="UTF-8">
+<script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+<style>
+div.slide {
+	position:relative;
+	border: 1px solid #ccc;
+	width: 738px;
+	height: 571px;
+	overflow: hidden;
+}
+div.slide ul {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 3690px;
+	height: 571px;
+	top: 0;
+	left: 0;
+}
+div.slide ul li {
+	float: left;
+}
+div.slide button {
+	font-size: 5em;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 1px 1px 3px #000;
+	border: none;
+	background: transparent;
+}
+div.slide p.prev {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+div.slide p.next {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+</style>
+</head>
+<body>
+<div class="slide">
+	<ul>
+		<li><a href="http://m.naver.com/"><img src="1.png" alt="네이버"></a></li>
+		<li><a href="http://m.daum.net/"><img src="2.png" alt="다음"></a></li>
+		<li><a href="http://m.nate.com/"><img src="3.png" alt="네이트"></a></li>
+		<li><a href="http://m.paran.com/"><img src="4.png" alt="파란"></a></li>
+		<li><a href="http://m.yahoo.com/"><img src="5.png" alt="야후"></a></li>
+	</ul>
+	<p class="prev"><button>&lt;</button></p>
+	<p class="next"><button>&gt;</button></p>
+</div>
+<script>
+
+</script>
+</body>
+</html>

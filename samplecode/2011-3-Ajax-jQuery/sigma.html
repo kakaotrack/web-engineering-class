@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sigma</title>
+<script type="text/javascript">
+var req;
+function loadXMLDoc(url, value) {
+	// branch for native XMLHttpRequest object
+	if (window.XMLHttpRequest) {
+		req = new XMLHttpRequest();
+		req.onreadystatechange = processReqChange;
+		if (value) {
+			req.open("POST", url, true);
+			req.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+			req.send(value);
+		} else {
+			req.open("GET", url, true);
+			req.send(null);
+		}
+	// branch for IE/Windows ActiveX version
+	} else if (window.ActiveXObject) {
+		req = new ActiveXObject("Microsoft.XMLHTTP");
+		if (req) {
+			req.onreadystatechange = processReqChange;
+			if (value) {
+				req.open("POST", url, true);
+				req.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+				req.send(value);
+			} else {
+				req.open("GET", url, true);
+				req.send();
+			}
+		}
+	}
+}
+
+// handle onreadystatechange event of req object
+function processReqChange() {
+	// only if req shows "loaded"
+	if (req.readyState == 4) {
+		// only if "OK"
+		if (req.status == 200) {
+			setXMLDoc();
+		} else {
+			//alert("There was a problem retrieving the XML data:\n" + req.statusText);
+			trace("There was a problem retrieving the XML data:\n" + req.statusText);
+		}
+	}
+}
+function setXMLDoc() {
+
+}
+function sigma(frm) {
+
+}
+</script>
+</head>
+<body>
+<form action="sigma.php" method="get" onsubmit="return !sigma(this)">
+	<p>1부터 <input type="text" id="n" name="n" size="2">까지의 <input type="submit" value="합:"></p>
+	<p><span id="result"></span></p>
+</form>
+</script>
+</body>
+</html>

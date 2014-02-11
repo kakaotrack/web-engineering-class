@@ -1,0 +1,9 @@
+<style type="text/css">
+	.item { border: 2px solid red;}
+</style>
+
+<div class="item">
+<% @items.each do |item| %>
+  <a href="<%= item['link'] %>" target="result"><img src="<%= item['thumbnail'] %>" title="<%= item['title'] %>"/></a>
+<% end %>
+</div>

@@ -1,0 +1,43 @@
+@import "float.css";
+
+/* reset */
+body {
+margin:0;
+padding:0;
+font: 12px/1.5 "돋움", dotum, sans-serif;
+}
+
+/* layout */
+#wrap {
+width: 900px;
+margin: 0 auto;
+}
+#heaer, #footer {
+height: 120px;
+background: blue;
+}
+#subCon, #sidebar {
+width: 200px;
+height: 400px;
+}
+#content {
+width: 500px;
+height: 400px;
+}
+
+/* color */
+#heaer {
+background: blue;
+}
+#content {
+background: yellow;
+}
+#subCon {
+background: orange;
+}
+#sidebar {
+background: green;
+}
+#footer {
+background: black;
+}

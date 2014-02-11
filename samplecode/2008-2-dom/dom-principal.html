@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>DOM원칙: 단계적 기능 축소</title>
+</head>
+<script type="text/javascript">
+function popUp(winURL) { 
+     window.open(winURL,"popup","width=320,height=480"); 
+} 
+</script>
+<body>
+<h1>문서 객체 모델 원칙</h1>
+<h2>원칙 1. 단계적 기능 축소(Graceful Degradation)</h2>
+<code>
+&gt;a href="#" onclick ="popUp ('http://www.yust.edu');return false;"&lt;Example1&gt;/a&lt;
+&gt;a href="http://www.yust.edu" onclick ="popUp ('http://www.yust.edu');return false;"&lt;Example2&gt;/a&lt;
+</code>
+<p><a href="#" onclick ="popUp ('http://www.yust.edu');return false;">Example1</a></p>
+<p><a href="http://www.yust.edu" onclick ="popUp ('http://www.yust.edu');return false;">Example2</a></p>
+</body>
+</html>

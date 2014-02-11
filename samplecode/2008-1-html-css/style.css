@@ -1,0 +1,21 @@
+/* 기본 표현 */
+body { 
+   color: #7F7F7F; 
+   font-size: 0.8em;
+   }
+
+li {color: #FFAC74; }
+   
+q { font-size: 0.5em;}
+
+em { font-style: none; 
+     text-decoration: underline;
+     } 
+     
+/* id 지시자 변경 */
+#actionContent li { color: #6B5E37; 
+     background-color: #F7F3E7;
+     }
+
+#actionContent p {background-color: white;}
+

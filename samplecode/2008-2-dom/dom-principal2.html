@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>DOM원칙: 스크립트 분리</title>
+</head>
+<script type="text/javascript">
+function popUp(winURL) { 
+     window.open(winURL,"popup","width=320,height=480"); 
+} 
+
+window.onload = prepareLinks; 
+
+function prepareLinks() { 
+   var links = document.getElementsByTagName("a");
+   for (var i=0; i<links.length; i++) {
+       if (links[i].getAttribute("class") == "popup") { 
+       links[i].onclick = function() {
+          popUp(this.getAttribute("href"));
+          return false;
+          }
+       }
+    }
+}
+</script>
+<body>
+<h1>DOM 원칙</h1>
+<h2>스크립트 분리(Unobstrusive Javascript)</h2>
+<code>
+&gt;a href="http://www.yust.edu" class="popup"&lt;Example&gt;/a&lt;
+</code>
+<p><a href="http://www.yust.edu" class="popup">Example</a>
+</body>
+</html>

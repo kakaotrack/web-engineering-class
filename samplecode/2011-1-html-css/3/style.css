@@ -1,0 +1,12 @@
+/* reset */
+body {
+margin:0;
+padding:0;
+font: 12px/1.5 "돋움", dotum, sans-serif;
+}
+
+/* layout */
+#nav {}
+#nav ul {}
+#nav li {}
+#nav a {}

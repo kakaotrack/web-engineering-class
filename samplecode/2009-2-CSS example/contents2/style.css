@@ -1,0 +1,23 @@
+body {
+	background-color: pink;
+	font-size: 16pt;
+}
+h1, h2, h3 {
+	font-family: "Comic Sans MS", sans-serif;
+}
+li {
+	font-family: "Lucida Grande", sans-serif;
+}
+
+ol, ul {
+	background-color: yellow;
+}
+li {
+	background-color: green;
+}
+a:link {
+	color: purple;
+}
+q {
+	font-style: italic;
+}

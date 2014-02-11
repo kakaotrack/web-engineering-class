@@ -1,0 +1,40 @@
+body{
+	background-color: #f7f9f9;
+}
+
+#container{
+	margin: 30px auto 0 auto;
+	display: block;
+}
+
+#logo{
+	background: url('../img/matthewleak-logo.png') no-repeat;
+	height: 0;
+	width: 0;
+	padding: 110px 0 0 110px;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+h2{
+	color: #282829;
+	font-family: Times New Roman, serif;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 21px;
+	margin: 30px auto;
+	text-align: center;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+ul.links{
+	margin: auto;
+
+}
+
+ul.links li{
+	list-style: none;
+}
+

@@ -1,0 +1,7 @@
+#heaer {}
+#content, #subCon, #sidebar {
+float:left;
+}
+#footer {
+clear:left;
+}

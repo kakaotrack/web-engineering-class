@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>DOM원칙: 하위 호환성</title>
+</head>
+<script type="text/javascript">
+function popUp(winURL) { 
+     window.open(winURL,"popup","width=320,height=480"); 
+} 
+</script>
+<body>
+<h1>문서 객체 모델 원칙</h1>
+<h2>원칙 3. 하위 호환성(Backward Compatiblity)</h2>
+<code>
+if (!getElementById) {
+return false;
+}
+</code>
+</body>
+</html>

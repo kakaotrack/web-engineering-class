@@ -1,0 +1,65 @@
+/* 기본 표현 */
+body { 
+   color: #7F7F7F; 
+   font-size: 0.8em;
+   }
+
+li {color: #FFAC74; }
+   
+q { font-size: 0.5em;}
+
+em { font-style: none; 
+     text-decoration: underline;
+     } 
+     
+/* id 지시자 변경 */
+#actionContent li { color: #6B5E37; 
+     background-color: #F7F3E7;
+     }
+
+#actionContent p {background-color: white;}
+
+/* 이미지 교체 예제 */
+h1 { 
+        width: 239px;
+        height: 59px;
+        display: block;
+        text-indent: -100em;
+        text-decoration: none;
+        background-image: url(http://www.yust.edu/yust/sub_img/sub_g_017.gif)
+}
+
+h2 { 
+        width: 115px;
+        height: 26px;
+        display: block;
+        text-indent: -100em;
+        text-decoration: none;
+        background-image: url(http://www.yust.edu/yust/sub_img/sub_g_020.gif)
+}
+
+/* 레이아웃 7.html, 8.html*/
+
+#header {
+   height: 280px;
+   background-color: brown;
+   }
+   
+#submenu {
+   width: 210px;
+   float: left;
+}
+
+#content {
+   margin-left: 207px;
+   border-left: 1px solid #eee;
+   padding: 1em;
+   max-width: 36em;
+}
+
+#footer {
+  clear: both;
+  height: 30px;
+  background-color: gray;
+  color: #fff;
+}

@@ -1,0 +1,16 @@
+#wrap {
+position: relative;
+}
+#content {
+margin: 0 200px;
+}
+#subCon, #sidebar {
+position: absolute;
+top:120px;
+}
+#subCon {
+left:0;
+}
+#sidebar {
+right:0;
+}
